@@ -11,6 +11,7 @@ body{
  }
 
 header{
+    position: relative;
     text-align: center;
     background-image: url(img/surge-background-1.jpg);
     background-size: cover;
@@ -19,7 +20,7 @@ header{
 
 
 #header-logo {
-  width: 35%;
+  width: 40%;
   height: auto;
 }
 
