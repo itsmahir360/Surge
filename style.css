@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
 body{
-    background-color:rgb(255, 25, 0);
+    background-color: gold;
+}
+
+ html, body{
+    margin: 0;
+    padding: 0;
+
+ }
+
+header{
+    text-align: center;
+    background-image: url(img/surge-background-1.jpg);
+    background-size: cover;
+    padding: 20px;
+}
+
+
+#header-logo {
+  width: 35%;
+  height: auto;
+}
+
+header h1{
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
