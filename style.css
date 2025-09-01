@@ -33,7 +33,7 @@ header h1{
   font-size: 70px;
   margin: 10px 20px 30px 40px; /* Top: 10px, Right: 20px, Bottom: 30px, Left: 40px */
   color: gold;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* offset-x, offset-y, blur-radius, color */
+  text-shadow: 2px 2px 4px rgb(0, 0, 0); /* offset-x, offset-y, blur-radius, color */
   }
   
 
