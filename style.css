@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
 
 body{
-    background-color: gold;
+    background-color:rgb(252, 178, 36);
 }
 
  html, body{
@@ -24,6 +24,7 @@ header{
   height: 100%;
   border: 20px solid black; 
   border-radius: 0%;
+  background-position: center;
 }
 
 header h1{
