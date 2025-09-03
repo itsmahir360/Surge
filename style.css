@@ -15,12 +15,12 @@ header{
     text-align: center;
     background-image: url(img/surge-background-1.jpg);
     background-size: cover;
-    padding: 20px;
+    padding: 70px;
 }
 
 
 #header-logo {
-  width: 30%;
+  width: 25%;
   height: 100%;
   border: 20px solid black; 
   border-radius: 0%;
@@ -37,6 +37,30 @@ header h1{
   text-shadow: 2px 2px 4px rgb(0, 0, 0); /* offset-x, offset-y, blur-radius, color */
   }
   
+  h2{
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+  margin: auto; /* Top: 10px, Right: 20px, Bottom: 30px, Left: 40px */
+  color: rgb(251, 2, 68);
+  text-shadow: 2px 2px 4px rgb(0, 0, 0); /* offset-x, offset-y, blur-radius, color */
+  }
+
+ #About_Surge {
+    width: 80%;
+   height: 100%;
+   float: right;
+
+
+ } 
+
+
+main {
+   width: auto;
+   margin: 0 auto;
+
+  }
 
 
   
