@@ -47,13 +47,25 @@ header h1{
   text-shadow: 2px 2px 4px rgb(0, 0, 0); /* offset-x, offset-y, blur-radius, color */
   }
 
- #About_Surge {
-    width: 80%;
-   height: 100%;
-   float: right;
+#About_Surge{
+  margin: center;
+}
+ #About_Surge_image { 
+  float: right;
+  width: 45%; /* Adjust as needed */
+  height: auto; /* Maintains aspect ratio */
+  margin: 50px;
+  }
 
-
- } 
+  #About_Surge_text{
+    text-align: right;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 22px;
+    background-position: left;
+    margin: right; /* Top: 10px, Right: 20px, Bottom: 30px, Left: 40px */
+  }
 
 
 main {
