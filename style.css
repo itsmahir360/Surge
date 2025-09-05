@@ -42,29 +42,27 @@ header h1{
   font-weight: 400;
   font-style: normal;
   font-size: 70px;
-  margin: auto; /* Top: 10px, Right: 20px, Bottom: 30px, Left: 40px */
+  margin-left: 75px; /* Top: 10px, Right: 20px, Bottom: 30px, Left: 40px */
   color: rgb(251, 2, 68);
   text-shadow: 2px 2px 4px rgb(0, 0, 0); /* offset-x, offset-y, blur-radius, color */
   }
 
-#About_Surge{
-  margin: center;
-}
+
  #About_Surge_image { 
   float: right;
   width: 45%; /* Adjust as needed */
   height: auto; /* Maintains aspect ratio */
-  margin: 50px;
+  background-position: right;
+  margin: 10px 50px 30px 20px;
   }
 
   #About_Surge_text{
-    text-align: right;
     font-family: "Jersey 10", sans-serif;
     font-weight: normal;
     font-style: normal;
-    font-size: 22px;
+    font-size: 30px;
     background-position: left;
-    margin: right; /* Top: 10px, Right: 20px, Bottom: 30px, Left: 40px */
+    margin-left: 100px; /* Top: 10px, Right: 20px, Bottom: 30px, Left: 40px */
   }
 
 
@@ -74,5 +72,17 @@ main {
 
   }
 
+  h3{
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+  margin-left: 75px; /* Top: 10px, Right: 20px, Bottom: 30px, Left: 40px */
+  color:rgb(252, 178, 36);
+  text-shadow: 2px 2px 4px rgb(0, 0, 0); /* offset-x, offset-y, blur-radius, color */
+  }
 
-  
+  #Skill_Background_image{
+    background-image: url(img/surge-background.jpg);
+    background-size: cover;
+  }
