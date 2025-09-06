@@ -86,3 +86,80 @@ main {
     background-image: url(img/surge-background.jpg);
     background-size: cover;
   }
+
+  #Skill_text{
+    font-family: "Jersey 10", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    background-position: right;
+   margin: 10px 50px 30px 20px;
+  }
+
+  #Surge_landing{
+    float: left;
+  width: 15%; /* Adjust as needed */
+  height: auto; /* Maintains aspect ratio */
+  background-position: left;
+  margin: 0px 20px 30px 50px;
+  }
+  
+  
+
+.image-container {
+  /* Set a positioning context for the children */
+  position: relative;
+  /* Align the container to the left side */
+  float: left;
+  /* Add some margin to separate it from other content */
+  margin-right: 20px;
+}
+
+.base-image {
+  /* Give the base image a defined size */
+  width: 400px;
+  height: 300px;
+  /* Ensures the aspect ratio is maintained and fills the space */
+  object-fit: cover;
+  /* Makes this image the base layer */
+  z-index: 1;
+}
+
+.overlay-image {
+  /* Position the image relative to its parent container */
+  position: absolute;
+  /* Place the image at the top-left corner of the container */
+  top: 0;
+  left: 0;
+  /* Give the overlay a smaller size */
+  width: 200px;
+  height: 200px;
+  /* Position the image on top of the base image */
+  z-index: 2;
+  /* Add a slight offset to create a staggered effect (optional) */
+  top: 20px;
+  left: 20px;
+}
+
+.image-container {
+  position: relative;
+  float: left;
+  /* The size of the container will be a percentage of its parent */
+  width: 50%;
+  height: auto;
+}
+
+.base-image {
+  width: 100%; /* Fills the container */
+  height: auto;
+}
+
+.overlay-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* The overlay is 50% the width of the container */
+  width: 50%;
+  height: auto;
+  z-index: 2;
+}
