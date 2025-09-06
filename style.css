@@ -81,8 +81,8 @@ main {
   text-shadow: 2px 2px 4px rgb(0, 0, 0); /* offset-x, offset-y, blur-radius, color */
   }
 
-  #Skill_Background_image{
-    background-image: url(img/surge-background.jpg);
+ #Skill_background_image{
+    background-image: url(img/Surge_image.jpg);
     background-size: cover;
   }
 
@@ -96,7 +96,7 @@ main {
     font-family: "Jersey 10", sans-serif;
     font-weight: normal;
     font-style: normal;
-    font-size: 30px;
+    font-size: 25px;
     background-position: center;
    margin-right: 100px;
    padding: 0;
@@ -110,10 +110,10 @@ main {
   gap: 0;
 
   /* 🔑 These remove the extra space */
-  width: 40%;     /* let container shrink to content */
+  width: 45%;     /* let container shrink to content */
   height: auto;    /* prevent fixed gray background */
   box-sizing: content-box; 
-  margin-left: 70px;
+  margin-left: 100px;
 }
 
 
@@ -121,6 +121,7 @@ main {
   display: block;   /* removes inline spacing */
   max-width: 100%;  /* ensures no overflow */
   height: auto;
+  margin-bottom: 30px;
 }
 
 
