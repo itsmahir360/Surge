@@ -99,7 +99,7 @@ main {
     font-style: normal;
     font-size: 25px;
     background-position: center;
-   margin-right: 100px;
+   margin-right: 200px;
    padding: 0;
   }
 
@@ -111,7 +111,7 @@ main {
   gap: 0;
 
   /* 🔑 These remove the extra space */
-  width: 45%;     /* let container shrink to content */
+  width: 75%;     /* let container shrink to content */
   height: auto;    /* prevent fixed gray background */
   box-sizing: content-box; 
   margin-left: 100px;
