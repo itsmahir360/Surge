@@ -147,3 +147,24 @@ h4 {
   text-shadow: 2px 2px 4px rgb(0, 0, 0); /* offset-x, offset-y, blur-radius, color */
   text-align: center;
   }
+
+  .imgfriends-container {
+    display: flex;
+    /* Distributes the available space around the items */
+    justify-content: space-around; 
+    /* Centers items vertically within the container if they have different heights */
+    align-items: center; 
+    /* Ensures items stay in one row unless specifically wrapped */
+    flex-direction: row; 
+    padding: 10px 0;
+}
+
+.imgfriends-container img {
+    /* Each image takes up roughly one-third of the space */
+    width: 30%; 
+    height: auto; /* Maintain aspect ratio */
+    /* Add some margin for spacing between images */
+    margin: 0 5px; 
+}
+
+
