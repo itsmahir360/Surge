@@ -148,23 +148,24 @@ h4 {
   text-align: center;
   }
 
-  .imgfriends-container {
-    display: flex;
-    /* Distributes the available space around the items */
-    justify-content: space-around; 
-    /* Centers items vertically within the container if they have different heights */
-    align-items: center; 
-    /* Ensures items stay in one row unless specifically wrapped */
-    flex-direction: row; 
-    padding: 10px 0;
+ .grid-container {
+    display: grid;
+    /* Creates 3 columns of equal width (1fr stands for 1 fraction of available space) */
+    grid-template-columns: repeat(3, 1fr);
+    /* Adds space between the grid items */
+    gap: 1rem;
 }
 
-.imgfriends-container img {
-    /* Each image takes up roughly one-third of the space */
-    width: 30%; 
-    height: auto; /* Maintain aspect ratio */
-    /* Add some margin for spacing between images */
-    margin: 0 5px; 
+.grid-item img {
+    /* Ensures the image fills the entire width of its container */
+    width: 100%;
+    /* Ensures all images have a consistent aspect ratio (e.g., 1/1 for square) */
+    aspect-ratio: 1 / 1;
+    /* Scales the image to cover the entire container without distortion, cropping as needed */
+    object-fit: cover;
+    /* Vertically aligns images if needed */
+    vertical-align: middle;
 }
+
 
 
