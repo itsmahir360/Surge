@@ -148,15 +148,21 @@ h4 {
   text-align: center;
   }
 
-.image-row figcaption {
-  margin-top: 10%;      /* Space between image and title */
+h5 {
+  margin-top: 10px;      /* Space between image and title */
   font-weight: bold;
   font-family: "Jersey 10", sans-serif ;
-   font-size: 20px;
+  color: rgb(232, 5, 66);
+   font-size: 40px;
   text-align: center;
+  margin-bottom: 3%;
 }
 
-
+/* If you have a paragraph or button below the h5, ensure its top margin is 0 */
+.gallery-item-simple p,
+.gallery-item-simple figcaption {
+  margin-top: 0px;       /* Fine-tune the distance here */
+}
 
 
  .gallery-container-simple {
@@ -173,17 +179,38 @@ h4 {
   text-align: center; /* Centers image and text */
   font-family: "Jersey 10", sans-serif ;
   font-size: 20px;
+  margin-top: 10px;
 }
 
 .gallery-item-simple img {
-   width: 100%;       /* Makes image take full width of its column */
-  height: 470px;     /* **SET A FIXED HEIGHT HERE** for all images */
-   display: grid;
-  grid-template-columns:repeat(3, 1fr);
-  object-fit: cover; /* **This is the key:** Crops and scales image to fit the box */
+  width: 100%;
+  height: 470px;
+  object-fit: cover;
+  display: block;        /* Removes the tiny white-space gap under images */
+  /* REMOVED: display: grid and grid-template-columns (images cannot be grid containers) */
+  object-position:  ; 
+}
 
+.Max{
+   object-position: 50% 20%; 
 }
 
 
+.learn-more-btn {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color:  rgb(232, 5, 66); /* Primary Blue */
+  color: white;
+  text-decoration: none;
+  border-radius: 50px; /* Fully rounded 'pill' shape */
+  transition: all 0.3s ease; /* Smooth hover transition */
+  margin-top: 15px;
+}
+
+.learn-more-btn:hover {
+  background-color:  rgb(255, 0, 68);
+  transform: translateY(-2px); /* Slight lift effect */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
 
 
