@@ -188,7 +188,7 @@ h5 {
   object-fit: cover;
   display: block;        /* Removes the tiny white-space gap under images */
   /* REMOVED: display: grid and grid-template-columns (images cannot be grid containers) */
-  object-position:  ; 
+  object-position: ; 
 }
 
 .Max{
@@ -213,4 +213,15 @@ h5 {
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
+footer {
+ background-color: rgb(251, 2, 68);
+ padding: 20px;
+ text-align: center;
+ margin-top: 40px;
 
+}
+
+footer .content{
+ width: 800px;
+ margin: auto;
+}
