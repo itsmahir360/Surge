@@ -188,7 +188,7 @@ h5 {
   object-fit: cover;
   display: block;        /* Removes the tiny white-space gap under images */
   /* REMOVED: display: grid and grid-template-columns (images cannot be grid containers) */
-  object-position: ; 
+  object-position: 25% center; 
 }
 
 .Max{
