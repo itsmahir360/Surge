@@ -225,3 +225,106 @@ footer .content{
  width: 800px;
  margin: auto;
 }
+
+/* 📱 MOBILE ONLY */
+@media screen and (max-width: 600px) {
+
+  body {
+    padding: 10px;
+  }
+
+  header {
+    width: 100vw;
+    margin: 0;
+    padding: 40px 20px;
+    text-align: center;
+
+    background-image: url(img/surge-background-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+  }
+
+  #header-logo {
+  width: 50%;        /* was 25% */
+  height: auto;
+  margin-bottom: 10px;
+  }
+
+
+  header h1 {
+    font-size: 40px;
+  }
+
+  h2, h3, h4 {
+    font-size: 42px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  /* About section */
+  #About_Surge_image {
+    float: none;
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  #About_Surge_text {
+    margin-left: 0;
+    font-size: 22px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+
+  /* Skills section */
+  .Skill-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #Skill_text {
+    margin-top: 0;
+    font-size: 22px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 25px;
+  }
+
+  .image-container {
+    width: 100%;
+    margin-left: 0;
+    align-items: center;
+  }
+
+  /* Gallery */
+  .gallery-container-simple {
+    flex-direction: column;
+    margin-inline: 10px;
+  }
+
+  .gallery-item-simple {
+    width: 100%;
+  }
+
+  .gallery-item-simple img {
+    height: 260px;
+    object-position: center;
+  }
+
+  /* Footer */
+  footer .content {
+    width: 100%;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
